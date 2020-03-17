@@ -1,0 +1,40 @@
+.reviews {
+    padding: 0 15px 71px 15px;
+    min-height: 950px;
+    &__img {
+        min-width: 169px;
+        height: 169px;
+        border-radius: 100%;
+        
+    }
+    &__blog {
+        margin-left: 62px;
+    }
+    &__inner {
+        width: 880px;
+        margin-top: 70px;
+        margin-bottom: 102px;
+        display: flex;
+        justify-content: center;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__name {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__progress {
+        margin-top: 10px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__text {
+        margin-top: 19px;
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
